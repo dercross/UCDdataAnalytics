@@ -1,0 +1,9 @@
+Basic Syntax
+A Python identifier is a name used to identify a variable, function, class,
+module, or other object in the created script. An identifier starts with a
+letter from A to Z or from a to z or an underscore (_) followed by zero or
+more letters, underscores, and digits (0 to 9).
+Python does not allow special characters such as @, $, and % within
+identifiers. Python is a case-sensitive programming language. Thus,
+Manpower and manpower are two different identifiers in Python.
+The following are the rules for naming Python identifiers:
