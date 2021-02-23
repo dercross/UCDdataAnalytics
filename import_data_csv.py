@@ -9,7 +9,7 @@ import numpy as np
 #data = pd.read_csv("Ireland_property.csv", index_col=1)
 df = pd.read_csv("world_population.csv")
 # Preview the first 10 lines of the loaded data
-print(df.head(10))
+print(df.head(10), df.shape)
 #Set chart face background colour
 ax = plt.gca()
 ax.set_facecolor('xkcd:lightgreen')
