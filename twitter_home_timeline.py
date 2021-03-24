@@ -1,4 +1,5 @@
 import tweepy
+
 # Authenticate to Twitter
 auth = tweepy.OAuthHandler("ZhsGFGA6twuzFT9ZH99K16E48",
     "aYwVl9eikRXYylcQB0xxp3FUz2oYTrY3xsGARmMkbr4GMJMhLP")
@@ -14,3 +15,4 @@ api = tweepy.API(auth)
 public_tweets = api.home_timeline()
 for tweet in public_tweets:
     print(tweet.text)
+
